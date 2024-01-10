@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142eecd4011b7cd44850e895621cea71, type: 3}
+  m_Name: BiomeForest
+  m_EditorClassIdentifier: 
+  type: 2
+  levelConfig:
+  - {fileID: 11400000, guid: 49399a482f5188342910a03d3e460b08, type: 2}
+  - {fileID: 11400000, guid: 8028a19ba71a6ac409a9eb5e739b6be8, type: 2}
+  - {fileID: 11400000, guid: 422b559544a20064d82f5ca82486c831, type: 2}
+  - {fileID: 11400000, guid: 422b559544a20064d82f5ca82486c831, type: 2}

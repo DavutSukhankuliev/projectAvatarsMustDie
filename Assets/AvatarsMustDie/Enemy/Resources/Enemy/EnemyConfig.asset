@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05bb8961aa984b65aad3ef27fc7cd2c6, type: 3}
+  m_Name: EnemyConfig
+  m_EditorClassIdentifier: 
+  models:
+  - Name: 0
+    EnemyType: 0
+    BiomeType: 0
+    MeshPrefab: {fileID: 2620733674548846944, guid: ba1fe74562fd3f24d99ac01501b397e6, type: 3}
+    Avatar: {fileID: 9000000, guid: 409520c9226982345a49c9803624f208, type: 3}
+    AnimationController: {fileID: 9100000, guid: 56b6e87d20b0bc546af0e06b4c0f381c, type: 2}
+    BaseAnimationClip: Base Layer.BaseRunInPlace
+    Speed: 1
+    Health: 100
+    Controller: 
+    ExtraArg: 
+    LimitPerLevel: 0
+    CountEnemyInArmy: 0
+    DelayBetweenSpawnEnemyInArmy: 0
+  - Name: 0
+    EnemyType: 1
+    BiomeType: 0
+    MeshPrefab: {fileID: 7043370261814483441, guid: 101db699f654df248992f4fe8fdf2c85, type: 3}
+    Avatar: {fileID: 9000000, guid: 409520c9226982345a49c9803624f208, type: 3}
+    AnimationController: {fileID: 9100000, guid: 56b6e87d20b0bc546af0e06b4c0f381c, type: 2}
+    BaseAnimationClip: Base Layer.FustRunInPlace
+    Speed: 1
+    Health: 70
+    Controller: 
+    ExtraArg: 
+    LimitPerLevel: 0
+    CountEnemyInArmy: 0
+    DelayBetweenSpawnEnemyInArmy: 0
+  - Name: 0
+    EnemyType: 1
+    BiomeType: 0
+    MeshPrefab: {fileID: 2620733674548846944, guid: ce3658306c2a9ae479cab39084d676d5, type: 3}
+    Avatar: {fileID: 9000000, guid: 409520c9226982345a49c9803624f208, type: 3}
+    AnimationController: {fileID: 9100000, guid: 56b6e87d20b0bc546af0e06b4c0f381c, type: 2}
+    BaseAnimationClip: Base Layer.BaseRunInPlace
+    Speed: 1
+    Health: 250
+    Controller: 
+    ExtraArg: 
+    LimitPerLevel: 0
+    CountEnemyInArmy: 0
+    DelayBetweenSpawnEnemyInArmy: 0

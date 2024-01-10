@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142eecd4011b7cd44850e895621cea71, type: 3}
+  m_Name: BiomeTropical
+  m_EditorClassIdentifier: 
+  type: 1
+  levelConfig:
+  - {fileID: 11400000, guid: 8ce657536c258d545a7f232b708d59c3, type: 2}
+  - {fileID: 11400000, guid: 39580b76e83d35e4f952702595808f45, type: 2}
+  - {fileID: 11400000, guid: 93b5e22626cb04849bf6ee20ba4fd024, type: 2}
+  spawnPoints: []
